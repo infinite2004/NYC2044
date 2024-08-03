@@ -1,0 +1,201 @@
+<!-- Copyright (c) 2022 8th Wall, Inc. -->
+<!-- body.html is optional; elements will be added to your html body after app.js is loaded. -->
+
+<a-scene 
+xrextras-tap-recenter
+landing-page
+xrextras-loading
+xrextras-runtime-error
+xrextras-gesture-detector
+xrweb="allowedDevices: any">
+  
+  <a-entity 
+    light="
+      type: directional; 
+      castShadow: true; 
+      color: white; 
+      intensity: 0.5" 
+    position="5 10 7">
+  </a-entity>
+
+  <a-light type="ambient" intensity="0.5"></a-light>
+  
+  <a-camera position="0 2 2"></a-camera>
+  
+  <a-light type="ambient" intensity="0.5"></a-light>
+  
+  <a-camera position="0 2 2"></a-camera>
+  
+  <a-entity
+    gltf-model="./assets/models/ad1.glb" 
+    
+    position="3 0 -200"  
+    scale="0.9 0.9 0.9" 
+    rotation="0 270 0"
+    shadow>
+
+
+
+   <a-entity
+    gltf-model="./assets/models/Building9.glb" 
+    
+    position="-380 0 450"  
+    scale="30 30 30" 
+    rotation="0 15 0"
+    shadow>
+    
+  </a-entity>
+ 
+
+     <a-entity
+    gltf-model="./assets/models/Building8.glb" 
+    
+    position="-10 0 -45"  
+    scale="15 15 15" 
+    rotation = " 0 -45 0 "
+    shadow>
+  </a-entity>
+
+     <a-entity
+    gltf-model="./assets/models/Building7.glb" 
+    
+    position="-480 0 55" 
+    scale="30 30 30" 
+    rotation="0 45 0"
+    shadow>
+  </a-entity>
+
+   
+     <a-entity
+    gltf-model="./assets/models/Building6.glb" 
+    
+    position="-100 0 -155"  
+    scale="30 30 30"  
+    rotation="0 45 0"
+    shadow>
+  </a-entity>
+
+
+     <a-entity
+    gltf-model="./assets/models/Building5.glb" 
+    rotation="0 45 0"
+    position="-40 0 -550"  
+    scale="40 40 40"  
+    shadow>
+  </a-entity>
+
+  
+     <a-entity
+    gltf-model="./assets/models/Building4.glb" 
+    
+    position="-150 0 150"  
+    scale="50 50 50"  
+    shadow>
+  </a-entity>            <!-- POSITIONED-->
+
+
+   <a-entity
+    gltf-model="./assets/models/Building3.glb" 
+
+    position="-30 0 100"  
+    scale="15 15 15"  
+    rotation="0 -45 0"
+    shadow>
+            <!-- POSITIONED-->
+  </a-entity>
+
+     <a-entity
+    gltf-model="./assets/models/Building2.glb" 
+
+    position="30 0 -110"  
+    scale="1.2 2 1.2" 
+    shadow>
+            <!-- POSITIONED-->
+
+  </a-entity>
+  </a-entity>
+
+     <a-entity
+    gltf-model="./assets/models/TexBuilding11.glb" 
+
+    position="0 0 50"  
+    scale="1.2 2 1.2" 
+    shadow>
+            <!-- POSITIONED-->
+
+  </a-entity>
+  </a-entity>
+
+     <a-entity
+    gltf-model="./assets/models/TexBuilding12.glb" 
+
+    position="50 60 -350"  
+    scale="8 10 8" 
+    rotation="0 45 0"
+    shadow>
+            <!-- POSITIONED-->
+
+  </a-entity>
+<a-entity
+    gltf-model="./assets/models/ad4.glb" 
+    
+    position="110 0 -180"  
+    scale="0.5 0.5 0.5" 
+    rotation="0 270 0"
+    shadow>
+
+
+  </a-entity>
+
+     <a-entity
+    gltf-model="./assets/models/TexBuilding13.glb" 
+
+    position="-50 0 -20"  
+    scale="4 4.5 4" 
+    shadow>
+            <!-- POSITIONED-->
+
+  </a-entity>
+
+
+
+    <a-entity
+    gltf-model="./assets/models/ad3.glb" 
+    
+    position="-100 0 -180"
+    scale="0.9 0.9 0.9" 
+    rotation="0 270 0"
+    shadow>
+
+
+  </a-entity>
+
+     <a-entity
+    gltf-model="./assets/models/TexBuilding14.glb" 
+
+    position="15 1 -10"  
+    scale="1.2 2 1.2" 
+    shadow>
+            <!-- POSITIONED-->
+
+  </a-entity>
+
+  <a-entity
+    gltf-model="./assets/models/ad2.glb" 
+    
+    position="100 0 -250"
+    scale="0.9 0.9 0.9" 
+    rotation="0 270 0"
+    shadow>
+
+
+ 
+
+  <a-plane 
+    height="2000" 
+    width="2000" 
+    rotation="-90 0 0" 
+    material="shader: shadow; opacity: 0.67" 
+    shadow>
+  </a-plane>  
+</a-scene>
